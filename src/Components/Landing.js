@@ -1,7 +1,13 @@
-import React from 'react';
+import React from 'react'
+import { Image } from 'react-bootstrap'
+import '.toast' from 'bootstrap'
 
 export default props => (
-    <div className='landing'>
-        <img src='https://miro.medium.com/proxy/1*pwIgJahIGJcvdeH2q7lxhQ.png' alt='react-meme'/>
-    </div>
+	<div className='landing'>
+		<Image
+			src='https://miro.medium.com/proxy/1*pwIgJahIGJcvdeH2q7lxhQ.png'
+			alt='react-meme'
+			rounded
+		/>
+	</div>
 )

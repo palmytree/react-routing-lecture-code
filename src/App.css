@@ -1,34 +1,40 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 img {
-  height: 500px;
+	height: 500px;
 }
 
 .header-container {
-  height: 100px;
-  background: lightskyblue;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 0px 35px;
+	height: 100px;
+	background: lightskyblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0px 35px;
 }
 
 .header-container nav {
-  width: 350px;
-  display: flex;
-  justify-content: space-between;
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .header-container span {
-  font-size: 24px;
+	font-size: 24px;
 }
 
-.landing, .about, .contact {
-  height: calc(100vh - 100px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.landing,
+.about,
+.contact {
+	height: calc(100vh - 100px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a:hover {
+	text-decoration: none !important;
 }

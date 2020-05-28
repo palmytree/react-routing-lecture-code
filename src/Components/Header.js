@@ -1,12 +1,20 @@
-import React from 'react';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { Navbar, Nav } from 'react-bootstrap'
 
 export default props => (
-    <div className='header-container'>
-        <h1>React Routing</h1>
-        <nav>
-            <span>Home</span>
-            <span>About</span>
-            <span>Contact</span>
-        </nav>
-    </div>
+	<Navbar bg='dark' variant='dark'>
+		<Navbar.Brand>React Routing</Navbar.Brand>
+		<Nav>
+			<Nav.Link>
+				<Link to='/'>Home</Link>
+			</Nav.Link>
+			<Nav.Link>
+				<Link to='/about'>About</Link>
+			</Nav.Link>
+			<Nav.Link>
+				<Link to='/contact'>Contact</Link>
+			</Nav.Link>
+		</Nav>
+	</Navbar>
 )
