@@ -1,6 +1,5 @@
 import React from 'react'
 import { Image } from 'react-bootstrap'
-import '.toast' from 'bootstrap'
 
 export default props => (
 	<div className='landing'>
